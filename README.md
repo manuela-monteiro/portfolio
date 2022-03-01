@@ -4,7 +4,7 @@ The layout was given by Rocketseat through Figma, in the context of a challenge 
 
 https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate
 
-Pleas, feel free to contact me in order to give some tips that you might find important, as well as point out some errors or inadequacies, keeping in mind that they will certainly exist, as I am a beginner. All of this will be much appreciated.
+Please, feel free to contact me in order to give some tips that you might find important, as well as point out some errors or inadequacies, keeping in mind that they will certainly exist, as I am a beginner. All of this will be much appreciated.
 
 Feel free, as well, to clone it, change it and publish it as you will.
 

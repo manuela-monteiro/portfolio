@@ -9,108 +9,337 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="projects">
-            <h1 class="sr-olny">Projects</h1>
-
-            <div class="card section-header">
-                <h2>My Projects</h2>
-                <span>See all</span>
-            </div>
-
-            <div class="card project">
-                <div class="project-header">
-                    <img src="" alt="folder-icon">
-                    <span class="generic-info">project-name</span>
+    <div id="container">
+        <main>
+            <div class="curriculum">
+                <div class="card profile">
+                    <img class="profile__image" src="./assets/monteiro_profile.jpg" alt="Profile photo" title="profile photo">
+                    <h1>Manuela Monteiro</h1>
+                    <span>Backend developer</span>
                 </div>
-
-                <p class="project-description">project description...</p>
-
-                <div class="project-card-footer">
-                    <div>
-                        <div class="data">
-                            <img src="" alt="favourites icon">
-                            <span>100</span>
-                        </div>
-
-                        <div class="data">
-                            <img src="" alt="git branch icon">
-                            <span>100</span>
-                        </div>
+        
+                <div class="card socials">
+                    <div class="social">
+                        <img class="icon" src="./assets/map-pin.svg" alt="location" title="location">
+                        <span>Brasil</span>
                     </div>
-
-                    <div class="tech">
-                        <div class="tech-icon javascript"></div>
-                        <span></span>
+                    <div class="social">
+                        <img class="icon" src="./assets/github.svg" alt="github" title="github">
+                        <span>manuela-monteiro</span>
+                    </div>
+                    <div class="social">
+                        <img class="icon" src="./assets/linkedin.svg" alt="linkedin" title="linkedin">
+                        <span>manuela-monteiro-dev</span>
+                    </div>
+                    <div class="social">
+                        <img class="icon" src="./assets/mail.svg" alt="e-mail" title="e-mail">
+                        <span>monteiro.m.dev@gmail.com</span>
                     </div>
                 </div>
-            </div>
-
-            <div class="card project">
-                <div class="project-header">
-                    <img src="" alt="folder-icon">
-                    <span class="generic-info">project-name</span>
-                </div>
-
-                <p class="project-description">project description...</p>
-
-                <div class="project-card-footer">
-                    <div>
-                        <div class="data">
-                            <img src="" alt="favourites icon">
-                            <span>100</span>
-                        </div>
-
-                        <div class="data">
-                            <img src="" alt="git branch icon">
-                            <span>100</span>
-                        </div>
-                    </div>
-
-                    <div class="tech">
-                        <div class="tech-icon javascript"></div>
-                        <span></span>
+        
+                <div class="card technologies">
+                    <h2>Technologies</h2>
+                    <div class="technologies__list">
+                        <span>JAVASCRIPT</span>
+                        
+                        <span>HTML</span>
+                        
+                        <span>CSS</span>
+                        
+                        <span>REACT</span>
+                        
+                        <span>NODE</span>
+                        
+                        <span>MONGODB</span>
+        
+                        <span>POSTGRESQL</span>
+        
+                        <span>TYPESCRIPT</span>
+        
+                        <span>C/C++</span>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="recent-posts">
-            <h1 class="sr-olny">Recent posts</h1>
-
-            <div class="card section-header">
-                <h2>Recent posts</h2>
-                <p></p>
-            </div>
-
-            <div class="card post">
-                <img src="" alt="Profile photo">
-
-                <div class="post-header">
-                    <p class="title"></p>
-                    <p class="time-ago"></p>
+                
+                <div class="card history education">
+                    <h2 class="education__title">Education</h2>
+        
+                    <ul class="history__list">
+                        <li>
+                            <h3>CIEP 449 - Ensino Médio Intercultural Brasil-França</h3>
+                            <p class="history__period">2017 - 2019</p>
+                            <span class="history__institution">High School</span>
+                        </li>
+        
+                        <li>
+                            <h3>IFB - Campus Taguatinga</h3>
+                            <p class="history__period">2020 - Now</p>
+                            <span class="history__institution">Industrial Automation</span>
+                        </li>
+                        
+                        <li>
+                            <h3>Educatransforma</h3>
+                            <p class="history__period">2021 - Now</p>
+                            <span class="history__institution">Web Develospanment - Backend</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </main>
 
-                <div class="post-description">
-                    <p></p>
-                    <div class="hashtags">
+        <aside>
+            <div class="aside">
+                <div class="projects">
+                    <div class="card projects__header">
+                        <h2>My Projects</h2>
+                        <span>See all</span>
+                    </div>
+        
+                    <div class="projects__list">
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon javascript"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon javascript"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon javascript"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon javascript"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card project">
+                            <div class="project__header">
+                                <img class="icon" src="./assets/folder.svg" alt="folder-icon">
+                                <h3 class="generic-info">project-name</h3>
+                            </div>
+            
+                            <p class="project-description">project description...</p>
+            
+                            <div class="project__footer">
+                                <div>
+                                    <div class="data">
+                                        <img class="icon" src="./assets/star.svg" alt="favourites icon">
+                                        <span>100</span>
+                                    </div>
+            
+                                    <div class="data">
+                                        <img class="icon" src="./assets/git-branch.svg" alt="git branch icon">
+                                        <span>100</span>
+                                    </div>
+                                </div>
+            
+                                <div>
+                                    <div class="tech-icon javascript"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="posts">
+                    <div class="card posts__header">
+                        <h2>Recent posts</h2>
                         <p></p>
-                        <p></p>
-                        <p></p>
+                    </div>
+        
+                    <div class="card post">
+                        <img class="profile__image" src="./assets/monteiro_profile.jpg" alt="Profile photo">
+        
+                        <div class="post__content">
+                            <div class="post__title">
+                                <h3>Solving a decimal places bug in dev.finance$ (JavaScript)</h3>
+                                <span class="time-ago">3 days ago</span>
+                            </div>
+            
+                            <div class="post__description">
+                                <p>Solving a decimal places bug in dev.finance$ (JavaScript)</p>
+                                <div class="post__hashtags">
+                                    <span>#HTML</span>
+                                    <span>#CSS</span>
+                                    <span>#JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card post">
+                        <img class="profile__image" src="./assets/monteiro_profile.jpg" alt="Profile photo">
+        
+                        <div class="post__content">
+                            <div class="post__title">
+                                <h3>Solving a decimal places bug in dev.finance$ (JavaScript)</h3>
+                                <span class="time-ago">3 days ago</span>
+                            </div>
+            
+                            <div class="post__description">
+                                <p>Solving a decimal places bug in dev.finance$ (JavaScript)</p>
+                                <div class="post__hashtags">
+                                    <span>#HTML</span>
+                                    <span>#CSS</span>
+                                    <span>#JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card post">
+                        <img class="profile__image" src="./assets/monteiro_profile.jpg" alt="Profile photo">
+        
+                        <div class="post__content">
+                            <div class="post__title">
+                                <h3>Solving a decimal places bug in dev.finance$ (JavaScript)</h3>
+                                <span class="time-ago">3 days ago</span>
+                            </div>
+            
+                            <div class="post__description">
+                                <p>Solving a decimal places bug in dev.finance$ (JavaScript)</p>
+                                <div class="post__hashtags">
+                                    <span>#HTML</span>
+                                    <span>#CSS</span>
+                                    <span>#JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <aside>
-        <div class="card" id="title"></div>
-        <div class="card" id="social"></div>
-        <div class="card" id="technologies"></div>
-        <div class="card history"></div>
-        <div class="card history"></div>
-    </aside>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>Made with 💜 by M. Monteiro.</p>
+    </footer>
 </body>
 </html>

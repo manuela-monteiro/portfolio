@@ -1,5 +1,7 @@
 This project aims for a simple web page with a card-based layout wich will show some professional and - personal - educational information (as a resume) and some projects that have been uploaded to GitHub (as a portfolio).
 
+![screenshot](https://github.com/manuela-monteiro/portfolio/blob/main/screenshots/overall_layout.png?raw=true)
+
 The layout was given by Rocketseat through Figma, in the context of a challenge called "Portfolio". Below, you can find the Figma link.
 
 https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate

@@ -53,6 +53,10 @@ html, body {
     box-shadow: rgba(0, 0, 0, .5) .1rem .1rem .2rem;
 }
 
+.card:hover {
+    cursor: default;
+}
+
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -217,6 +221,25 @@ span {
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
+
+    transition: .15s;
+}
+
+.project:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, .5) .3rem .3rem .5rem;
+
+    background-color: rgb(55, 55, 70);
+
+    cursor: pointer;
+
+    transition: .15s;
+}
+
+.project:active {
+    transform: scale(.975);
+
+    transition: .15s;
 }
 
 .project__header {

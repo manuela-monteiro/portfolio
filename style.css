@@ -187,7 +187,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
 }
 
     /* PROJECTS-START */
@@ -207,13 +207,14 @@ span {
 
 .project {
     width: calc(50% - .5rem);
+    min-height: 200px;
     box-sizing: border-box;
     flex: 0 1 auto;
     padding: 2rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
 }

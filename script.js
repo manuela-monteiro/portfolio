@@ -1,9 +1,11 @@
-//  Create new XMLHttpRequest object
+//  Get the necessary HTML elements
 const projectsList = document.querySelector(".projects__list");
+const profileImg = document.querySelector(".profile__image");
 
+//  Create new XMLHttpRequest object
 const req = new XMLHttpRequest();
 
-function requestUserRepos(username) {
+function getUserData(username) {
     //  Inform GitHub endpoint with the given username
     const url = `https://api.github.com/users/${username}/repos`;
 
@@ -17,6 +19,8 @@ function requestUserRepos(username) {
         const data = JSON.parse(this.response);
 
         console.log(data);
+
+        profileImg.setAttribute('src', data[0].owner.avatar_url);
 
         for (let i in data) {
             //  Create an anchor to receive the repo's content
@@ -113,4 +117,4 @@ function getBranches(branchUrl) {
 };
 
 //  Call the repos request function
-requestUserRepos('manuela-monteiro');
+getUserData('manuela-monteiro');
